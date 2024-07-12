@@ -40,3 +40,7 @@ export const FileUpload = async (req, res) => {
     console.log(error);
   }
 };
+
+export const deleteOP = async (req, res) => {
+  console.log("hello");
+};
