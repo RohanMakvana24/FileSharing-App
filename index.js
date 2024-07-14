@@ -12,6 +12,9 @@ ConnectDB();
 const port = process.env.PORT;
 const server = express();
 
+//MIDDLEWARE
+server.use(express.json());
+
 //ROUTES
 server.use("/api/v1", Routes);
 
